@@ -23,3 +23,17 @@ extension UIColor {
     }
 }
 
+// MARK: - Make UIView CALayer corner radius attribute available in Attributes Inspector
+
+extension UIView {
+    @IBInspectable var cornerRadius: CGFloat {
+        get {
+            return layer.cornerRadius
+        }
+        set {
+            layer.cornerRadius = newValue
+            layer.masksToBounds = newValue > 0
+        }
+    }
+}
+
