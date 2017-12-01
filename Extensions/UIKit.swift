@@ -1,4 +1,10 @@
-/// A Playground containing extensions for UIKit
+//
+//  UIKit.swift
+//
+//  Useful Extensions for UIKit
+//
+//  Created by Max Rogers on 12/1/17.
+//
 
 import UIKit
 
@@ -36,4 +42,3 @@ extension UIView {
         }
     }
 }
-
