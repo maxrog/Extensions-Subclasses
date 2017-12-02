@@ -1,2 +1,2 @@
 # Extensions-Subclasses
-A collection of useful extensions and subclasses for Swift. 
+A collection of useful extensions, subclasses, and protocols for Swift. 
